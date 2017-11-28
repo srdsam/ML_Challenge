@@ -46,6 +46,5 @@ for line in sys.stdin.readlines():
     print(line)
     print("Risk of Deviation above 12.5: " + str(glucose_predict) + "%")
     print("Predicted Deviation: " + str(float(deviation)))
-    print(timedelta)
 
 
